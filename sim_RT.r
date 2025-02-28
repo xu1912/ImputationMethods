@@ -13,7 +13,7 @@ expit=function(x){
 N=500
 ns=100
 K=5
-mn=1
+mn=1              ##indicates the data generation model 1-3
 model_name="RT"
 fno=paste("Book/m",mn,"_",model_name,".txt", sep="")
 for(i in 1:ns){
